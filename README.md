@@ -1,45 +1,77 @@
-# ✦ F34kY CORE ✦
-
-**F34kY Core** is a lightweight utility assistant for games (especially Roblox). It adds several useful features: BunnyHop (auto-jump), Auto Clicker, Clock, CS:GO‑style Crosshair, FPS counter, and Ping counter. All settings are saved and easily customizable.
+🚀 F34kY C0re
+F34kY C0re is a lightweight automation tool for Windows PC. It includes three main modules: BunnyHop (BHop), Auto Clicker, and Key Presser. Built with Python using tkinter and global keyboard hooks.
 
 ![Version](https://img.shields.io/badge/version-2.0-blue)
 ![Python](https://img.shields.io/badge/python-3.10%2B-green)
 ![License](https://img.shields.io/badge/license-MIT-orange)
 
----
+✨ Features
+🎮 BunnyHop (BHop): Auto-jump with 64-tick rate timing. Works while holding Space.
 
-## 🎮 Features
+🖱️ Auto Clicker: Left-click automation with adjustable CPS. Includes click counter and compact overlay window.
 
-### Game Functions
-- **BunnyHop** – automatic jumping while holding the jump key (adjustable CPS, toggle and jump keys).
-- **Auto Clicker** – automatic left/right mouse clicks with adjustable CPS and a click counter.
+⌨️ Key Presser: Auto-press any keyboard key with adjustable delay.
 
-### Visual Functions
-- **Clock** – stylish clock with date in the top‑right corner (draggable window).
-- **CS:GO Crosshair** – dynamic crosshair in the center of the screen (green, 15px size).
-- **FPS Counter** – real‑time frames per second indicator (color changes: green >60, yellow 30–60, red <30).
-- **Ping Counter** – latency display in milliseconds (green <60, yellow 60–120, red >120).
+🎨 Modern UI: Dark theme with customizable accent color, background, and fonts.
 
-### Settings
-- Change color scheme (accent, background, cards).
-- Rebind all hotkeys.
-- Save / load configuration to a JSON file.
-- Borderless window that can be dragged by the mouse.
+💾 Config Persistence: Settings are automatically saved to F34kY_Core.json.
 
----
+🔝 Always on Top: Small status windows stay above other applications.
 
-## 🖥️ Screenshots
+🖥️ Interface Overview
+Main window features three cards for each module, settings button, and exit button. When activated:
 
-> *Coming soon…*
+BHop: Separate overlay showing ENABLED/DISABLED status
 
----
+Clicker/Presser: Compact dark windows showing current status and action counter
 
-## 📥 Installation & Running
+⌨️ Default Hotkeys
+Action	Key
+Toggle Main Menu	\ (Backslash)
+BHop: Toggle	ALT (while holding Space)
+BHop: Emergency Exit	END
+Auto Clicker: Toggle	X (after module activation)
+Key Presser: Toggle	E (after module activation)
+Note: Clicker and Presser trigger keys can be changed in settings.
 
-### 1. Install Python 3.10 or newer
-Download from [python.org](https://www.python.org/downloads/).
+🛠️ Installation & Usage
+Make sure you have Python 3.7+ installed.
 
-### 2. Clone the repository or download the ZIP
-```bash
-git clone https://github.com/your-username/F34kY-Core.git
-cd F34kY-Core
+Clone the repository or download F34kY_Core.py:
+
+bash
+git clone https://github.com/yourusername/F34kY_Core.git
+cd F34kY_Core
+Install required dependencies:
+
+bash
+pip install keyboard pyautogui
+(tkinter comes bundled with Python by default)
+
+Run the program:
+
+bash
+python F34kY_Core.py
+⚙️ Settings
+In the settings window, you can customize:
+
+Accent Color: Pick any color using the color picker
+
+Background & Card Colors: Custom RGB values
+
+Font & Size: Any font installed on your system
+
+Menu Key: Remap the main menu toggle key
+
+Clicker/Presser Keys: Set custom trigger keys
+
+📁 Configuration File
+All settings are stored in F34kY_Core.json. You can manually edit this file or use the in-app settings menu.
+
+⚠️ Disclaimer
+This software is provided for educational purposes only to demonstrate global keyboard hooks and input automation techniques.
+
+Using this software in online games may violate the game's Terms of Service and could result in account penalties. The author assumes no responsibility for any misuse or damages caused by this software.
+
+📄 License
+This project is for personal and educational use only.
