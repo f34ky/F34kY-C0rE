@@ -40,7 +40,7 @@ Make sure you have Python 3.7+ installed.
 Clone the repository or download F34kY_Core.py:
 
 bash
-git clone https://github.com/yourusername/F34kY_Core.git
+git clone https://github.com/f34ky/F34kY_Core.git
 cd F34kY_Core
 Install required dependencies:
 
