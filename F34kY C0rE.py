@@ -1104,26 +1104,5 @@ load_config()
 setup_hotkeys()
 update_keys()
 
-print("""
-╔══════════════════════════════════════════════════════╗
-║                 ✦ F34kY CORE v3.0 ✦                 ║
-╠══════════════════════════════════════════════════════╣
-║  GAME FUNCTIONS:                                     ║
-║     - BUNNY HOP: ALT toggle, SPACE jump              ║
-║     - AUTO CLICKER: X - start/stop                   ║
-║     - KEY PRESSER: E - start/stop                    ║
-║                                                     ║
-║  VISUAL FUNCTIONS:                                   ║
-║     - CS:GO CROSSHAIR: Green crosshair              ║
-║     - FPS COUNTER: Real-time FPS                    ║
-║     - PING COUNTER: Real-time ping                  ║
-║                                                     ║
-║  OTHER:                                              ║
-║     - MACRO: R - record (ENTER), T - play           ║
-║                                                     ║
-║  MENU KEY: \\                                       ║
-║  END - emergency exit                               ║
-╚══════════════════════════════════════════════════════╝
-""")
 
 root.mainloop()
