@@ -39,18 +39,18 @@ Make sure you have Python 3.7+ installed.
 
 Clone the repository or download F34kY_Core.py:
 
-bash
+bash:
 git clone https://github.com/f34ky/F34kY_Core.git
 cd F34kY_Core
 Install required dependencies:
 
-bash
+bash:
 pip install keyboard pyautogui
 (tkinter comes bundled with Python by default)
 
 Run the program:
 
-bash
+bash:
 python F34kY_Core.py
 ⚙️ Settings
 In the settings window, you can customize:
