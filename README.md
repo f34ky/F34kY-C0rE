@@ -1,7 +1,7 @@
 🚀 F34kY C0re
 F34kY C0re is a lightweight automation tool for Windows PC. It includes three main modules: BunnyHop (BHop), Auto Clicker, and Key Presser. Built with Python using tkinter and global keyboard hooks.
 
-![Version](https://img.shields.io/badge/version-2.0-blue)
+![Version](https://img.shields.io/badge/version-1.0-blue)
 ![Python](https://img.shields.io/badge/python-3.10%2B-green)
 ![License](https://img.shields.io/badge/license-MIT-orange)
 
